@@ -30,7 +30,7 @@ public class Task1_2 {
         int[] intArray = { 10, 20, 30, 40, 50 };
 
         // ⑥下記の処理について、何をしているのかコメントを記入してください。
-        // [intArrayの2番目と５番目を出力している。]
+        // [intArrayの2番目と５番目の和を出力している。]
         System.out.println(intArray[1] + intArray[4]);
 
     }
