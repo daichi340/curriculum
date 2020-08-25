@@ -31,19 +31,19 @@ public class Task1_4 {
          String pass = "pass";
         // ② 名前が「 alice 」、パスワードが「 pass 」であった場合、「 ログイン成功です 」と出力してください。
          
-         if (name == a && pass == b) {
+         if (name.equals("alice") && pass.equals("pass")) {
            System.out.println("ログイン成功です");
         }
 
         // ③ 名前のみ正しい場合、「 パスワードに誤りがあります。 」と出力してください。
          
-         else if (name == a) {
+         else if (name.equals("alice")) {
            System.out.println("パスワードに誤りがあります。");
         }
 
         // ④ パスワードのみ正しい場合、「 名前に誤りがあります。 」と出力してください。
          
-         else if (pass == b) {
+         else if (pass.equals("pass")) {
            System.out.println("名前に誤りがあります。");
         }
 
