@@ -4,10 +4,10 @@ import constants.Constants;
 
 public class Check {
  private static String firstName = "見塩";
- private String lastName = "大地";
+ private static String lastName = "大地";
 
  private void printName(String firstName,String lastName) {
-     System.out.println("printNameメソッド　→　" + Check.firstName + this.lastName);
+     System.out.println("printNameメソッド　→　" + Check.firstName + Check.lastName);
 	}
 public static void main(String[] args) {
 	Check check = new Check();
