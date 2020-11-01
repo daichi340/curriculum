@@ -1,8 +1,11 @@
 @media screen and (max-width: 767px) {
+.wrapper{
+	width: 250px;
+}
 .header{
 	width: 250px;
 }
-.right{
+.side{
 	width: 100px;
 }
 .footer{
@@ -10,16 +13,19 @@
 }
 }
 @media screen and (max-width: 479px) {
+.wrapper{
+	width: 150px;
+}
 .header{
 	width: 150px;
 }
-.right{
+.main{
+	float: none;
+}
+.side{
 	width: 150px;
 }
 .footer{
 	width: 150px;
 }
-.wrapper {
-        float: none;
-    }
 }
